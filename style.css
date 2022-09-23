@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+body {
+  background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/12/avocado-01.jpg");
+
+  font-family: "Montserrat", sans-serif;
+  background-blend-mode: darken;
+}
+
+ul {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  padding-top: 5%;
+  color: rgb(51, 11, 107);
+  font-family: "Montserrat", sans-serif;
+}
+img {
+  width: 30%;
+  padding-top: 5%;
+}
+h3 {
+  color: rgb(220, 164, 150);
+  font-size: 30px;
+  background-color: rgb(23, 21, 106);
+  margin: 35px 0px 20px 0px;
+  padding: 10px;
+}
+ul {
+  color: rgb(134, 134, 227);
+  margin-top: 0%;
+  font-size: 20px;
+  background-color: black;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+  padding: 10px;
+  list-style-position: inside;
+  font-family: "Montserrat", sans-serif;
+}
+
+button {
+  color: rgb(255, 255, 255);
+  padding: 1%;
+  font-size: 20px;
+  background-color: rgb(94, 101, 164);
+  font-family: "Montserrat", sans-serif;
+}
