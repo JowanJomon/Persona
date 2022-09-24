@@ -7,11 +7,15 @@
   align-content: center;
   text-align: center;
 }
+html {
+  min-height: 100%;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?w=2000");
+}
 body {
-  background-image: url("https://wallpaperboat.com/wp-content/uploads/2019/12/avocado-01.jpg");
-
   font-family: "Montserrat", sans-serif;
-  background-blend-mode: darken;
+  color: aliceblue;
 }
 
 ul {
@@ -19,7 +23,7 @@ ul {
 }
 h1 {
   padding-top: 5%;
-  color: rgb(51, 11, 107);
+  color: rgb(165, 149, 187);
   font-family: "Montserrat", sans-serif;
 }
 img {
@@ -27,7 +31,7 @@ img {
   padding-top: 5%;
 }
 h3 {
-  color: rgb(220, 164, 150);
+  color: rgb(140, 73, 56);
   font-size: 30px;
   background-color: rgb(23, 21, 106);
   margin: 35px 0px 20px 0px;
@@ -57,5 +61,6 @@ button {
 #linkedin {
   margin: 20px;
   color: rgb(39, 138, 187);
-  background-color: blanchedalmond;
+  background-color: rgb(194, 188, 178);
+  padding: 5px;
 }
