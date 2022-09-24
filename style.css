@@ -52,4 +52,10 @@ button {
   font-size: 20px;
   background-color: rgb(94, 101, 164);
   font-family: "Montserrat", sans-serif;
+  margin: 20px;
+}
+#linkedin {
+  margin: 20px;
+  color: rgb(39, 138, 187);
+  background-color: blanchedalmond;
 }
