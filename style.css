@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,100&display=swap");
+@import url("http://fonts.cdnfonts.com/css/chistoso");
+@import url("http://fonts.cdnfonts.com/css/bangalore");
 
 * {
   padding: 0;
@@ -11,7 +13,7 @@ html {
   min-height: 100%;
   background-size: cover;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("https://img.freepik.com/free-photo/abstract-flowing-neon-wave-background_53876-101942.jpg?w=2000");
+    url("https://images.unsplash.com/photo-1624285206817-0230db70d364?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -23,17 +25,19 @@ ul {
 }
 h1 {
   padding-top: 5%;
-  color: rgb(165, 149, 187);
+  color: rgb(202, 185, 227);
   font-family: "Montserrat", sans-serif;
 }
 img {
+  margin-top: 20px;
   width: 30%;
-  padding-top: 5%;
+  border: 9px solid rgb(219, 196, 196);
+  border-radius: 100px;
 }
 h3 {
   color: rgb(140, 73, 56);
   font-size: 30px;
-  background-color: rgb(23, 21, 106);
+  background-color: rgb(23, 22, 102);
   margin: 35px 0px 20px 0px;
   padding: 10px;
 }
@@ -41,9 +45,10 @@ ul {
   color: rgb(134, 134, 227);
   margin-top: 0%;
   font-size: 20px;
-  background-color: black;
-  margin-left: 5%;
-  margin-right: 5%;
+  background-color: rgb(46, 13, 13);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 5%;
   padding: 10px;
   list-style-position: inside;
@@ -55,12 +60,17 @@ button {
   padding: 1%;
   font-size: 20px;
   background-color: rgb(94, 101, 164);
-  font-family: "Montserrat", sans-serif;
   margin: 20px;
+  font-family: "Bangalore", sans-serif;
 }
 #linkedin {
   margin: 20px;
-  color: rgb(39, 138, 187);
-  background-color: rgb(194, 188, 178);
-  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(204, 214, 219);
+  background-color: rgb(35, 82, 223);
+  padding: 20px;
+}
+a {
+  text-decoration: none !important;
 }
